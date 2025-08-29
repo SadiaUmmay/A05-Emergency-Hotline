@@ -18,3 +18,17 @@ copy.addEventListener("click", function(){
     copyCount.textContent = totalCopyCount;
 })
 
+//  call coins decrease js 
+
+const call = document.getElementById("call")
+const coin = document.getElementById("coin")
+let totalCoins = 100;
+call.addEventListener("click", function(){
+    if(totalCoins>=20){
+        totalCoins = totalCoins - 20;
+        coin.textContent= totalCoins
+    }
+    else{
+        
+    }
+})
